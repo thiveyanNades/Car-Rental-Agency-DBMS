@@ -47,7 +47,7 @@ SELECT Vehicle_BodyType
 FROM VEHICLE 
 GROUP BY Vehicle_BodyType;
 
-/* Advanced Join Queries and Views */
+/* Advanced Join Queries*/
 
 Select Customer_name
 from customer c, employee_reserves_for_customer er, employee e
@@ -69,6 +69,8 @@ and Rental_Agency_Rent_Out.Employee_ID = Employee.Employee_ID_Number
   AND Customer.Customer_ID = 64245675
   and Rental_Agency_Rent_Out.Customer_ID = Customer.Customer_ID
   AND Rental_Agency_Rent_Out.Vehicle_VIN_Number = 4324234;
+
+/* Views */
 
 CREATE VIEW Sedan_Vehicle AS
     (SELECT * 
