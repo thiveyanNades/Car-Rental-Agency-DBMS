@@ -47,7 +47,7 @@ SELECT Vehicle_BodyType
 FROM VEHICLE 
 GROUP BY Vehicle_BodyType;
 
-/* Advanced Join Queries*/
+/*Join Queries*/
 
 Select Customer_name
 from customer c, employee_reserves_for_customer er, employee e
