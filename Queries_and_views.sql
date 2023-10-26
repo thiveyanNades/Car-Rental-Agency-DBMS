@@ -47,7 +47,7 @@ SELECT Vehicle_BodyType
 FROM VEHICLE 
 GROUP BY Vehicle_BodyType;
 
-/* Advanced Queries and Views */
+/* Advanced Join Queries and Views */
 
 Select Customer_name
 from customer c, employee_reserves_for_customer er, employee e
@@ -95,7 +95,7 @@ SELECT *
 FROM Rental_Reciept
 WHERE TotalCost > '100';
 
-/* Advanced Queries for Assignment 5*/
+/* Advanced Queries*/
     
 (SELECT Vehicle_VIN_Number, Vehicle_MakeModel, Vehicle_Availability 
 FROM Vehicle)
